@@ -1,0 +1,8 @@
+<suite name="Smoke test" parallel="tests" thread-count="6">
+    <listeners>
+        <listener class-name="listeners.RetryListener"/>
+    </listeners>
+    <test name="Bla">
+        <parameter name="team" value="MU"/>
+    </test>
+</suite>
